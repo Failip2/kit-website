@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg 
+    version="1.1" 
+    baseProfile="full" 
+    xmlns="http://www.w3.org/2000/svg" 
+    width="400" height="400" viewBox="0 0 200 200">
+    
+    <!-- Background Circle (like the “bubble” around Ninite’s “N”) -->
+    <circle 
+        cx="100" 
+        cy="100" 
+        r="90" 
+        fill="#0072C6" 
+    />
+    
+    <!-- Stylized Face Outline (head silhouette) -->
+    <path 
+        d="M 50 75
+           Q 35 100, 50 125
+           Q 65 150, 100 150
+           Q 135 150, 150 125
+           Q 165 100, 150 75
+           Q 135 50, 100 50
+           Q 65 50, 50 75 Z"
+        fill="#FFFFFF" 
+    />
+    
+    <!-- Eyes -->
+    <circle 
+        cx="80" 
+        cy="95" 
+        r="8" 
+        fill="#002b3b" 
+    />
+    <circle 
+        cx="120" 
+        cy="95" 
+        r="8" 
+        fill="#002b3b" 
+    />
+    
+    <!-- Mouth (large oval to convey surprise) -->
+    <ellipse 
+        cx="100" 
+        cy="115" 
+        rx="12" 
+        ry="10" 
+        fill="#0072C6" 
+    />
+    
+    <!-- Optional Text (brand name), adjust font-size or remove if not needed -->
+</svg>
